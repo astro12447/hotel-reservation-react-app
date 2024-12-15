@@ -1,0 +1,33 @@
+.ShowRoomInfoComponent input[type="text"] {
+    font-weight: bold;
+    height: 100%;
+    min-width: 30rem;
+    border-left:  rgb(214, 213, 213);
+}
+
+.ShowRoomInfoComponent {
+    position: relative;
+}
+
+.ShowRoomInfoComponent .toogleInput{
+    position: absolute;
+    width:  20px;
+    height: 20px;
+    right:  40px;
+    top:    30%;
+    position: absolute;
+}
+.ShowRoomInfoComponent .toogleInput.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ShowRoomInfoComponent .toogleInner {
+    width:  8px;
+    height: 8px;
+    position: absolute;
+    border-left:  2px rgb(102, 95, 95) solid;
+    border-top:   2px rgb(102, 95, 95) solid;
+    rotate: 45deg;
+}
+

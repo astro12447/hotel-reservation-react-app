@@ -1,0 +1,9 @@
+.DateComponent input[type="date"]{
+    padding: 0.7em;
+    min-width: 10rem;
+    font-weight: bold;
+}
+
+.DateComponent.flex{
+    display: flex;
+}

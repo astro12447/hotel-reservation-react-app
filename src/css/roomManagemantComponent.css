@@ -1,0 +1,17 @@
+.RoomManagemantComponent{
+    position:absolute;
+    top:   7rem;
+    right: 30rem;
+    border:  1px #1e1e1e solid;
+    background-color: rgb(195, 193, 193);
+    padding: 1em;
+    min-width: 30rem;
+    border-radius: 0.3rem;
+}
+
+.RoomManagemantComponent .flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

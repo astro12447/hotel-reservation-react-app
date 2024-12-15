@@ -1,0 +1,65 @@
+.GuestCart.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.4em;
+}
+.GuestCart  input[type="number"]{
+   padding: 0.5em;
+   max-width: 10em;
+   text-align: center;
+   font-weight: bold;
+
+}
+
+.GuestCart .Adult{
+    position: relative;
+}
+input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0; 
+}
+
+.GuestCart .Adult button{
+    position: absolute;
+    border: none;
+    display: flex;
+    top: 30%;
+    background-color: #363434;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.GuestCart .Children button{
+    position: absolute;
+    border: none;
+    display: flex;
+    top: 30%;
+    background-color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.GuestCart .Children{
+    position:relative;
+}
+
+.GuestCart .Children button{
+    position:absolute;
+}
+.GuestCart .Adult .AdultIncrementBntLeft{
+    right: 4px;
+}
+.GuestCart .Adult .AdultDecrementBntRigth{
+    left: 4px;
+}
+
+.GuestCart .Children .ChildrenIncrementBntLeft{
+    right: 4px;
+}
+.GuestCart .Children .ChildrenDecrementBntRigth{
+    left: 4px;
+}
+

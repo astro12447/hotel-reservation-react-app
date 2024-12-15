@@ -1,0 +1,46 @@
+.UserFormConteiner{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.UserFormConteiner .userForm{
+    background-color: #3c3c3c;
+    min-height: 30rem;
+    min-width:  50rem;
+
+}
+.userForm input{
+    width: 100%;
+    min-height: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+.userForm form{
+    position: relative;
+    width: 50vw;
+    height: 100%;
+    padding:2rem;
+}
+.userForm button{
+    padding: 1rem;
+    border:none;
+    margin-top: 1em;
+    margin-right: 1rem;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: rgb(148, 148, 148);
+}
+.userForm{
+    display: flex;
+    justify-content: center;
+}
+
+.userForm .Title{
+    font-size: 2rem;
+    margin-bottom: 1em;
+    text-align: center;
+    color: rgb(193, 193, 183);
+}
+

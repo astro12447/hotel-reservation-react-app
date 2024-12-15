@@ -1,0 +1,42 @@
+.SelectedRoomItem.grid{
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1rem;
+}
+.ImagesList button{
+    cursor: pointer;
+}
+.NextImageButton button{
+    position: relative;
+    border: none;
+    font-size: smaller;
+    border-radius: 3rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+.NextImageButton button::after{
+    content: ">";
+    color: rgb(126, 121, 121);
+}
+
+.PrevImageButton button{
+    position: relative;
+    border: none;
+    font-size: smaller;
+    border-radius: 3rem;
+    width:  2rem;
+    height: 2rem;
+    text-align: center;
+}
+.PrevImageButton button::after{
+    content: "<";
+    color: rgb(126, 121, 121);
+}
+.ImagesList button{
+    width:  0.6rem;
+    height: 0.6rem;
+    border-radius: 3rem;
+    border: none;
+}

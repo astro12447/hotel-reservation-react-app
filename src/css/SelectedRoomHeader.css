@@ -1,0 +1,19 @@
+.Header{
+   background-color: rgb(169, 167, 167);
+   margin-bottom: 1em;
+   border-radius: 1rem;
+   position:relative;
+   padding: 1em;
+}
+
+.Header.flex{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    justify-content: center;
+}
+.Header button{
+    background-color: rgb(73, 72, 72);
+    cursor: pointer;
+    margin-left: 0.5em;
+    color:#fff;
+}
